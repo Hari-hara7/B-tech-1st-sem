@@ -1,0 +1,152 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    background-color: #000000;
+    padding: 20px 0;
+    text-align: center;
+    animation: fadeInDown 0.8s ease-out both;
+  }
+  
+  header img {
+    height: 150px; 
+    width: 150px;/* Adjust the height as needed */
+    margin-bottom: 10px;
+  }
+  
+  header h1 {
+    font-size: 2em;
+    margin: 10px 0;
+    color:#ffffff;
+    animation: fadeInUp 1s ease-out both;
+  }
+  
+  header h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color:#ffffff;
+    animation: fadeInUp 1s ease-out 0.2s both;
+  }
+  header p {
+    
+    color:#ffffff;
+   
+  }
+  main {
+    padding: 20px 0;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  h2{
+    color:white;
+  }
+  
+  li {
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: #d4ad11;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    animation: fadeIn 0.5s ease-out both;
+  }
+  
+  li:hover {
+    background-color: #cf9e0b;
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+  }
+  
+  .back-button {
+    background-color: #c99805;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 20px 0;
+    transition: background-color 0.3s ease;
+  }
+  
+  .back-button:hover {
+    background-color: #666;
+  }
+  
+  /* Pattern-based Background */
+  body {
+    background-image: radial-gradient(circle, #FFFF00 10%, transparent 10%),
+                      radial-gradient(circle, transparent 10%, #000000 10%, #000000 20%, transparent 20%);
+    background-size: 20px 20px;
+    background-position: 0 0, 10px 10px;
+  }
+
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    header h1 {
+      font-size: 1.5em;
+      color:#ffffff;
+    }
+    
+    header h2 {
+      font-size: 1.2em;
+      color:#ffffff;
+    }
+    
+    li {
+      font-size: 0.9em;
+    }
+    
+    .back-button {
+      font-size: 0.9em;
+    }
+  }
+
+  /* Keyframe Animations */
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes fadeInDown {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
