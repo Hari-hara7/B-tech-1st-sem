@@ -150,3 +150,15 @@ body {
       opacity: 1;
     }
   }
+
+    /* Footer Styles */
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #000000; /* Ensure the footer background matches the rest of the page */
+}
+
+footer img {
+  max-width: 50%;
+  height: auto;
+}
