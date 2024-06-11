@@ -58,6 +58,7 @@ body {
   }
   h2{
     color:white;
+    text-align:center;
   }
   
   li {
@@ -66,6 +67,7 @@ body {
     background-color: #d4ad11;
     border-radius: 5px;
     margin-bottom: 10px;
+    text-align:center;
     animation: fadeIn 0.5s ease-out both;
   }
   
